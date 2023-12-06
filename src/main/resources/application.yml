@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://DESKTOP-LAAE5CE:1433;databaseName=bookdb;encrypt=true;trustServerCertificate=true;
+    username: sa
+    password: htet
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+        format_sql: true
+    show-sql: true
